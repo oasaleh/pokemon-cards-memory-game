@@ -76,7 +76,9 @@ function Gameboard() {
       </div>
     </div>
   ) : (
-    'Loading Pokemons...'
+    <div className="loading">
+      <p>Loading Pokemons...</p>
+    </div>
   );
 }
 export default Gameboard;
