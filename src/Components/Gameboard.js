@@ -69,8 +69,7 @@ function Gameboard() {
     <div className="gameView">
       <Score roundScore={roundScore} bestScore={bestScore} />
       <div className="gameboard">
-        {console.log('Gameboard was rendered.')}
-
+        {/* {console.log('Gameboard was rendered.')} */}
         {deck.map((card) => {
           return <Card pokemon={card} key={card.id} onClick={handleClick} />;
         })}

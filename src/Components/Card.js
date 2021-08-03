@@ -5,7 +5,7 @@ function Card(props) {
 
   return pokemon.hasOwnProperty('images') ? (
     <div className="card">
-      {console.log('Card was rendered.')}
+      {/* {console.log('Card was rendered.')} */}
       <img
         className="cardImg"
         src={pokemon.images.large}
